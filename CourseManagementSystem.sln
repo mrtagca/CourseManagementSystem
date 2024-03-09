@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34607.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{B9CC3D23-D8C4-4705-88AB-4806DAB93A12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Types", "Types", "{ED3909AF-2DBD-4CBA-9B1A-B7E4FFE8968E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{1C9C6BB3-997D-4FBD-ACB1-760E64E499F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{C3A4D08E-2389-4BA7-AB5C-0BC85F0151DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbDapper", "DbDapper\DbDapper.csproj", "{0C2F5BBF-4371-4FA2-80B1-8F1973DEFDE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseTypes", "BaseTypes\BaseTypes.csproj", "{88FBC289-21C5-467C-9B5E-923A9A5E8D52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C2F5BBF-4371-4FA2-80B1-8F1973DEFDE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C2F5BBF-4371-4FA2-80B1-8F1973DEFDE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C2F5BBF-4371-4FA2-80B1-8F1973DEFDE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C2F5BBF-4371-4FA2-80B1-8F1973DEFDE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88FBC289-21C5-467C-9B5E-923A9A5E8D52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88FBC289-21C5-467C-9B5E-923A9A5E8D52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88FBC289-21C5-467C-9B5E-923A9A5E8D52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88FBC289-21C5-467C-9B5E-923A9A5E8D52}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0C2F5BBF-4371-4FA2-80B1-8F1973DEFDE3} = {C3A4D08E-2389-4BA7-AB5C-0BC85F0151DD}
+		{88FBC289-21C5-467C-9B5E-923A9A5E8D52} = {ED3909AF-2DBD-4CBA-9B1A-B7E4FFE8968E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {735CE8A6-C13B-48BF-BA9B-76914DDBEEDC}
+	EndGlobalSection
+EndGlobal
